@@ -33,7 +33,7 @@ while (j <= 100) {
     }
     j++;
 }
-let j = 1;
+ j = 1;
 do {
     if (j % 2 !== 0) { 
         console.log(j); 
@@ -43,7 +43,7 @@ do {
 
 // Exercise 2 Do/While loop
 console.log("Exercise 3 - Part 2:\n==========\n")
-let j = 1;
+ j = 1;
 while (j <= 100) {
     if (j % 3 === 0 && j % 5 === 0) {
         console.log('FIZZBUZZ'); 
@@ -54,7 +54,7 @@ while (j <= 100) {
     }
     j++;
 }
-let j = 1;
+ j = 1;
 do {
     if (j % 3 === 0 && j % 5 === 0) {
         console.log('FIZZBUZZ'); 
@@ -89,7 +89,7 @@ if (!found) {
 console.log("Exercise 5:\n==========\n")
 let fizzDivisor = Math.round(Math.random() * (10 - 1) + 1);
 let buzzDivisor = Math.round(Math.random() * (10 - 1) + 1);
-let n = Math.round(Math.random() * (1000 - 1) + 1);
+ n = Math.round(Math.random() * (1000 - 1) + 1);
 let start = Math.round(Math.random() * (10 - 1) + 1);
 
 for (let i = start; i <= n; i++) {
